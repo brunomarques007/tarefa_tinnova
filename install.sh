@@ -2,7 +2,7 @@
 
 function instalar_dependencias() {
   sudo apt-get update -y > /dev/null
-  for cmd in python3 pip git gh figlet; do
+  for cmd in python3 pip; do
     command -v $cmd >/dev/null || sudo apt-get install -y $cmd
   done
   command -v pipx >/dev/null || pip install pipx
