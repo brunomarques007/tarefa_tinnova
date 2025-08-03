@@ -14,6 +14,7 @@ Este repositório contém a solução para a tarefa de recrutamento da TINNOVA. 
 
  - Caso estivesse desenvolvendo em conjunto com o time, certamente traria esse ponto para discussão a fim de alinhar expectativas. Mas como se trata de um teste, aproveitei para mostrar o meu conhecimento e boas práticas de desenvolvimento.
 
+ - Caso fosse necessário, poderia criar uma imagem docker e incluir num pipeline CI/CD, e no caso de aplicações sendo executadas em nuvem, tenho a capacidade de criar Infra por Código (IoC) com Terraform, Helm Charts.
 
 ## Estrutura do Projeto
 
@@ -33,7 +34,7 @@ Este repositório contém a solução para a tarefa de recrutamento da TINNOVA. 
 
 ## Instalação
 
-# Caso esteja utilizando o ubuntu a instalação feita executando o install.sh
+### Caso esteja utilizando o ubuntu a instalação feita executando o `install.sh`
 
 1. Clone o repositório:
 
