@@ -34,7 +34,7 @@ Este repositório contém a solução para a tarefa de recrutamento da TINNOVA. 
 
 ## Instalação
 
-### Caso esteja utilizando o ubuntu a instalação feita executando o `install.sh`
+### Caso esteja utilizando o ubuntu a instalação pode ser feita executando o `install.sh`
 
 1. Clone o repositório:
 
