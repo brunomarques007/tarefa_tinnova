@@ -1,0 +1,51 @@
+[project]
+name = "tarefa-tinnova"
+version = "0.1.0"
+description = "Tarefa para o recrutamento na TINNOVA."
+authors = [
+    {name = "@brunomarques007"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ruff (>=0.12.7,<0.13.0)",
+    "pytest (>=8.4.1,<9.0.0)",
+    "pytest-cov (>=6.2.1,<7.0.0)",
+    "ytest (>=0.1.4,<0.2.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "greenlet (>=3.2.3,<4.0.0)",
+    "rich (>=14.1.0,<15.0.0)",
+    "typer (>=0.16.0,<0.17.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = '-p no:warnings'
+
+[tool.coverage.run]
+concurrency = ["thread", "greenlet"]
+
+[tool.poetry]
+packages = [
+    { include = "task_1.py" },
+    { include = "task_2.py" },
+    { include = "task_3.py" },
+    { include = "task_4.py" },
+    { include = "tests" }
+]
